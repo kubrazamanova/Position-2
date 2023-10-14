@@ -31,6 +31,7 @@
   position: relative;
   width: 570px;
   height: 448px;
+  border: 2px solid red;
 }
 .person-img {
   position: absolute;
@@ -75,7 +76,7 @@ li:nth-child(3) {
   line-height: 32px;
 }
 
-li:nth-child(4) {
+li:nth-last-child(4) {
   color: var(--Text_Light_Gray, rgba(255, 255, 255, 0.64));
   font-feature-settings: "clig" off, "liga" off;
   font-family: Epilogue;
@@ -85,17 +86,12 @@ li:nth-child(4) {
   line-height: 24px;
 }
 
-.right-container {
+.right-container{
   position: relative;
 }
 .container .ikon svg {
   position: absolute;
   right: 46px;
   top: 0;
-  z-index: 0;
-}
-
-ul {
-  position: relative;
   z-index: 1;
 }
